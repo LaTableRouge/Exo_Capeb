@@ -342,14 +342,14 @@ p {
   background-position: center;
 }
 
-.rm-left {
+.left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #fff;
 }
 
-.rm-badge {
+.badge {
   margin: 10px 0;
 }
 
@@ -358,7 +358,7 @@ p {
   margin: 15px auto;
 }
 
-.rm-form {
+.form {
   margin: 40px auto;
 }
 

@@ -1,0 +1,21 @@
+p{
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.bg {
+    background: url(../img/background.jpg);
+    background-position: center;
+}
+
+.rm-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $headertxtcolor;
+   
+}
+
+.rm-badge{
+    margin : 10px 0;
+}

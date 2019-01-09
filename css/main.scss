@@ -1,0 +1,33 @@
+@import 'reset';
+@import 'variables';
+@import 'header';
+@import 'newsletter';
+@import 'socialnetworks';
+
+.border{
+    border:3px solid $borderIcoSocial !important;
+}
+
+.copyright {
+    padding: 30px 0;
+    background: $copyrightbg;
+}
+
+.copyright footer h3{
+    text-align: center;
+    color: $copyrighttxt;
+}
+
+.copyright footer h3 span {
+    font-weight: bold;
+}
+
+@media (max-width: 576px) { 
+    p {
+        font-size: 1.0em;
+    }
+
+    .rm-badge {
+        text-align: center;
+    }
+}
